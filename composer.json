@@ -1,0 +1,18 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "queo/fluid-site-generator",
+    "require": {
+        "neos/site-kickstarter": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Queo\\FluidSiteGenerator\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Queo.FluidSiteGenerator"
+        }
+    }
+}
